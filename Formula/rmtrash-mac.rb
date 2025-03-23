@@ -1,8 +1,8 @@
 class RmtrashMac < Formula
-  desc "macOS用のゴミ箱移動コマンドラインツール"
-  homepage "あなたのGitHubリポジトリのURL"
-  url "GitHubのリリースのtarballのURL"
-  sha256 "実際のtarballのSHA256ハッシュ"
+  desc "A safer rm: Move files to the macOS Trash, not permanently delete."
+  homepage "https://github.com/nyshk97/rmtrash-mac"
+  url "https://github.com/nyshk97/rmtrash-mac/releases/tag/v0.1.0"
+  sha256 "3360a428f37ad060fcb87b0319651389fd06346ab3f2b1a15db3f6bab3b6df24"
   version "0.1.0"
   license "MIT"
 
