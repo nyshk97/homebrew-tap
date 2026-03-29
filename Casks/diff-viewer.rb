@@ -1,6 +1,6 @@
 cask "diff-viewer" do
-  version "1.3.1"
-  sha256 "f32ea86150dbf47057110e8bfdbc1f7e1058c2cb047f0b69db0f24559f827e9a"
+  version "1.3.2"
+  sha256 "6002659fcbac49ab6139612f36d94c53903b9fff19139ed6cff5bf7d9794c05b"
 
   url "https://github.com/nyshk97/diff-viewer/releases/download/v#{version}/DiffViewer.zip"
   name "DiffViewer"
