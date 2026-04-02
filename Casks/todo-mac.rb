@@ -1,6 +1,6 @@
 cask "todo-mac" do
-  version "1.8.0"
-  sha256 "a4496ec12ad81d73154d373e2bd9c721cb6b12e341366ca918789a77f8e20ec2"
+  version "1.9.0"
+  sha256 "586de77b3b53b7615fcf9c5e68fe8c1d069a8dbb70a3d36ac2b640c8072680bd"
 
   url "https://github.com/nyshk97/todo-app/releases/download/v#{version}/TodoMac.zip"
   name "TodoMac"
