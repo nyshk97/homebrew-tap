@@ -1,6 +1,6 @@
 cask "ide" do
-  version "1.0.3"
-  sha256 "6b4ed746373315ec6b5e7e80911be7f0c2d49d2d62ef74f5e9e9216804717476"
+  version "1.0.4"
+  sha256 "aaca04e0a611f92ac173d5b2050f7e6413efde0889ecd27f770f5c74cc879395"
 
   url "https://github.com/nyshk97/ide/releases/download/v#{version}/ide.zip"
   name "ide"
