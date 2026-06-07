@@ -1,6 +1,6 @@
 cask "translate-mac" do
-  version "0.1.0"
-  sha256 "0be166fd45e2983ebf3533a1a64b81852d57e42f326ef0576de6c6dd83916059"
+  version "0.1.1"
+  sha256 "a3f40bbd072caa5724a9d97add3fd6083dcc34946354430269e66deaf5740925"
 
   url "https://github.com/nyshk97/translate/releases/download/v#{version}/Translate.zip"
   name "Translate"
