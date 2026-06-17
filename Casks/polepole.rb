@@ -1,6 +1,6 @@
 cask "polepole" do
-  version "1.4.12"
-  sha256 "7962eb7432135be7b2e2d656bd32a9bc4a3aa5b367cf38ef2f227f13ad003b57"
+  version "1.4.13"
+  sha256 "eec2ed19c6d7228beb06aea8d78480f4bda59ea0a39513e91f31796bb17db107"
 
   url "https://github.com/nyshk97/polepole-releases/releases/download/v#{version}/polepole.dmg"
   name "PolePole"
