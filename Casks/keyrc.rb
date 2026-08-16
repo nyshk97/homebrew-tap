@@ -8,7 +8,7 @@ cask "keyrc" do
   homepage "https://github.com/nyshk97/keyrc"
 
   auto_updates true
-  depends_on macos: ">= :ventura"
+  depends_on macos: :ventura
 
   app "keyrc.app"
 end
