@@ -1,6 +1,6 @@
 cask "keyrc" do
-  version "0.1.0"
-  sha256 "edba507cc0c84318f4a37d9921a5a20d430999f774df8b22816714de15c45e19"
+  version "0.1.1"
+  sha256 "d8934219eb3b041555ea5a163212fea4ba71a44a04c0b345a2c450b4a2e26b9d"
 
   url "https://github.com/nyshk97/keyrc/releases/download/v#{version}/keyrc-#{version}.zip"
   name "keyrc"
