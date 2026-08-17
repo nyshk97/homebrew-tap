@@ -7,7 +7,7 @@ cask "menubar-tidy" do
   desc "メニューバー項目を隠して整理する常駐アプリ（Thaw の個人用フォーク）"
   homepage "https://github.com/nyshk97/menubar-tidy"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "MenuBar Tidy.app"
 
