@@ -1,12 +1,13 @@
 cask "translate-mac" do
-  version "0.1.10"
-  sha256 "8d588dd435ea80b327e0da2866e110a8999aa987d001a63b89c5a452a7f431d3"
+  version "0.1.11"
+  sha256 "a642e936d1354539cff0817e1d8482be989404d10c1a62cd235482c51cac8348"
 
   url "https://github.com/nyshk97/translate/releases/download/v#{version}/Translator.zip"
   name "Translator"
   desc "自分専用の macOS ネイティブ翻訳ツール"
   homepage "https://github.com/nyshk97/translate"
 
+  auto_updates true
   depends_on macos: :sonoma
 
   app "Translator.app"
