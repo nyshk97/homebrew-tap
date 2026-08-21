@@ -1,10 +1,12 @@
 cask "todo-mac" do
-  version "1.17.1"
-  sha256 "34b14571e3d6f5b3daa632894a4a222e6fed3e5b71d23902801072623bc353a2"
+  version "1.18.0"
+  sha256 "5714431120169640bf025cff7373060391348e24516740ab08bb1af381e3f1fb"
 
   url "https://github.com/nyshk97/todo-app/releases/download/v#{version}/TodoMac.zip"
   name "TodoMac"
   homepage "https://github.com/nyshk97/todo-app"
+
+  auto_updates true
 
   app "TodoMac.app"
 end
