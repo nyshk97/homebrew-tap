@@ -1,6 +1,6 @@
 cask "lala" do
-  version "0.13.0"
-  sha256 "5152d536098bbb76c11df97f372fde475e8f442a67fb7a0c1ad5e9537c106cd9"
+  version "0.14.0"
+  sha256 "a447f740e0cf36b347983aecfc7348f7df86a4fa7071f7bca41261d9be10eb42"
 
   url "https://github.com/nyshk97/daw-releases/releases/download/v#{version}/LaLa.dmg"
   name "LaLa"
