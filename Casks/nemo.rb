@@ -8,7 +8,7 @@ cask "nemo" do
   homepage "https://github.com/nyshk97/nemo"
 
   auto_updates true
-  depends_on arch: :arm64, macos: ">= :monterey"
+  depends_on arch: :arm64, macos: :monterey
 
   app "Nemo.app"
 
