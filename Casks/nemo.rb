@@ -1,6 +1,6 @@
 cask "nemo" do
-  version "1.2.0"
-  sha256 "0a6dd0316ed4b82c206af84dcf5ebc1cd2cb75277d1be06acd2b4cd3b30f1193"
+  version "1.2.1"
+  sha256 "70d1be8695f4b62e34028c1342386b3cc81cea104585dc3b6473a5315aab28c6"
 
   url "https://github.com/nyshk97/browser/releases/download/v#{version}/Nemo-#{version}-arm64.dmg"
   name "Nemo"
