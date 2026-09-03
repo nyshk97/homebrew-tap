@@ -1,6 +1,6 @@
 cask "salva" do
-  version "0.3.0"
-  sha256 "f07a58c656a7f7346c1495c583731f87711699655eb3a3059a105f0dd9d83b19"
+  version "0.4.0"
+  sha256 "b67b71da60f4dd0c76b11b881620f8ea25e2749eeaf0dcaf5878b64921571888"
 
   url "https://github.com/nyshk97/salva-releases/releases/download/salva-v#{version}/Salva.dmg"
   name "Salva"
