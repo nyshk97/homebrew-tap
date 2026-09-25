@@ -1,6 +1,6 @@
 cask "mycast" do
-  version "0.1.3"
-  sha256 "0d29fb8f65722c9c57b4066cc4c4f0dcae04d94de0dd1dee4dc2044b795842f6"
+  version "0.1.4"
+  sha256 "95dde54417c14c3397d3f31e5852a327f66cf20a3da843e4bbee7b67d4b183c9"
 
   url "https://github.com/nyshk97/mycast/releases/download/v#{version}/mycast-#{version}.zip"
   name "mycast"
