@@ -8,7 +8,7 @@ cask "mycap" do
   homepage "https://github.com/nyshk97/mycap"
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "mycap.app"
 end
