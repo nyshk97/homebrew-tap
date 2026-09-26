@@ -1,6 +1,6 @@
 cask "mycap" do
-  version "0.2.0"
-  sha256 "254889fed19151d682fd30525ca8d80e5c69ba86f3fe0005dd3117c8fb6e420b"
+  version "0.2.1"
+  sha256 "5a3d0eff34b148e5950dce0df65d1d1ac1cb4d5a3e166e86d19f8e8188b3d681"
 
   url "https://github.com/nyshk97/mycap/releases/download/v#{version}/mycap-#{version}.zip"
   name "mycap"
