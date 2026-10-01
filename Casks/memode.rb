@@ -1,6 +1,6 @@
 cask "memode" do
-  version "0.1.0"
-  sha256 "486855f6768d0931dbf3e794d329dbcd102e33a0ea4a6e7b3027f0584ee866b4"
+  version "0.1.1"
+  sha256 "5c8bef82628bc5b02451b3b039a7c034a9b17c92f9a49bcf73567546860625b7"
 
   url "https://github.com/nyshk97/memode-releases/releases/download/v#{version}/Memode-#{version}.zip"
   name "Memode"
