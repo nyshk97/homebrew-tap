@@ -7,7 +7,8 @@ cask "memode" do
   desc "左 Shift のダブルタップで出し入れするポップアップのメモ・エディタ"
   homepage "https://github.com/nyshk97/memode"
 
-  depends_on macos: ">= :sonoma"
+  auto_updates true
+  depends_on macos: :sonoma
 
   app "Memode.app"
   binary "#{appdir}/Memode.app/Contents/Resources/memode"
