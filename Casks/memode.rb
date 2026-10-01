@@ -14,7 +14,7 @@ cask "memode" do
 
   uninstall quit: "local.nyshk97.memode"
 
-  # メモ（~/Memode）は消さない
+  # メモ（~/Memode Data）は消さない
   zap trash: [
     "~/Library/Logs/memode",
     "~/Library/Preferences/local.nyshk97.memode.plist",
