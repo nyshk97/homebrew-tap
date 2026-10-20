@@ -1,10 +1,10 @@
 cask "menubar-tidy" do
-  version "1.0.7"
-  sha256 "8a985e29f371dc341fe83871c9b313f207c979780749be2c0308e489a507bcc5"
+  version "2.0.0"
+  sha256 "7eea5e061e513654ec730cb014a7007a388c64681839fa1be2645c7939049383"
 
   url "https://github.com/nyshk97/menubar-tidy/releases/download/v#{version}/MenuBarTidy-#{version}.zip"
   name "MenuBar Tidy"
-  desc "メニューバー項目を隠して整理する常駐アプリ（Thaw の個人用フォーク）"
+  desc "メニューバーに入りきらない項目も、一覧から選んで開ける常駐アプリ"
   homepage "https://github.com/nyshk97/menubar-tidy"
 
   depends_on macos: :tahoe
@@ -21,11 +21,9 @@ cask "menubar-tidy" do
   ]
 
   caveats <<~EOS
-    起動には以下の権限が必要です
-    （システム設定 → プライバシーとセキュリティ）:
-      - アクセシビリティ
-      - 画面収録
+    起動にはアクセシビリティの権限が必要です
+    （システム設定 → プライバシーとセキュリティ → アクセシビリティ）。
 
-    アップグレード後は権限の再付与を求められることがあります。
+    1.x で付与した画面収録の権限は 2.0 から使いません。
   EOS
 end
