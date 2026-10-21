@@ -1,6 +1,6 @@
 cask "menubar-tidy" do
-  version "2.0.0"
-  sha256 "7eea5e061e513654ec730cb014a7007a388c64681839fa1be2645c7939049383"
+  version "2.0.1"
+  sha256 "d775a7c13fe94a500e81ed633c3f5059d9d95afefe72f178ad5b47e4080ac489"
 
   url "https://github.com/nyshk97/menubar-tidy/releases/download/v#{version}/MenuBarTidy-#{version}.zip"
   name "MenuBar Tidy"
