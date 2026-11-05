@@ -1,6 +1,6 @@
 cask "station" do
-  version "1.1.18"
-  sha256 "db6cd392a2dd0c0c029a59979baceb3ff18e625c50d80f3370c5d5be18ff5e8f"
+  version "1.1.19"
+  sha256 "eda90396c3a40e282d77f29312ef41237558c9ddcdda13a6e154523242fe11b4"
 
   url "https://github.com/nyshk97/station-releases/releases/download/v#{version}/Station-#{version}-arm64.dmg"
   name "Station"
